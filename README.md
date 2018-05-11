@@ -1,2 +1,4 @@
 # tf2Crates
-For my friend
+
+
+Full list of crates from TF2
