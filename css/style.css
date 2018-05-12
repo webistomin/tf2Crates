@@ -48,12 +48,20 @@ img {
 	vertical-align: middle;
 }
 
-span{
+span {
 	font-size:75%
 }
 
 a {
 	text-decoration: none;
+}
+
+a:visited {
+    color: #4c4; 
+}
+   
+a:active {
+    color: #4c4;
 }
 
 .label{
