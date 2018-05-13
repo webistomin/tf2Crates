@@ -48,12 +48,13 @@ img {
 	vertical-align: middle;
 }
 
-span {
+span{
 	font-size:75%
 }
 
 a {
 	text-decoration: none;
+	color: #4c4; 
 }
 
 a:visited {
@@ -61,9 +62,9 @@ a:visited {
 }
    
 a:active {
-    color: #4c4;
+    color: #c44;
 }
-
+ 
 .label{
 	display: inline-block;
 	padding: 2px 4px;
@@ -75,4 +76,14 @@ a:active {
 	white-space: nowrap;
 	vertical-align: baseline;
 	background-color: #3a87ad;
+}
+
+.scrollup{
+	width:40px;
+	height:40px;
+	position:fixed;
+	bottom:10px;
+	right:5px;
+	display:none;
+	background: url('../src/icon_top.png') no-repeat;
 }
